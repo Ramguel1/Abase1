@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="bootstrap.min.css">
+    <link src="style.css">
+    <title>LOGIN</title>
+</head>
+<body  onload="confi();">
+    <div class="container">
+        <div class="text-center">
+         <h1>Iniciar</h1>
+        <center>
+            <img src="ini.png" alt="Logo" width="100" height="100" class="d-inline-block align-text-top">
+         
+            <form id="formSesion">
+                <div class="mb-3">
+                  <h2>  <label for="correo" class="form-label ">Correo Electronico</label></h2>
+                    <input type="email" class="form-control w-25" id="correo" >
+                  </div>
+                  <div class="mb-3">
+                   <h2> <label for="password" class="form-label">contraseña</label></h2>
+                    <input type="password" class="form-control w-25" id="password" >
+                  </div>
+                  <div class="mb-3">
+                    <input type="button" class="btn btn-light form-control w-25" onclick="iniciar()" value="Iniciar Sesion">
+                  </div>
+                  <div class="mb-3">
+                   <a href="registrar.html"><input type="button" class="btn btn-dark form-control w-25" value="Crear"></a>
+                  </div>
+            </form>
+          </center>
+        </div>
+    </div>
+    <script src="appLogin.js"></script>
+    <script src="funciones.js"></script>
+    <script src="bootstrap.min.js"></script>
+    <script src="sweetalert2.all.min.js"></script>  
+
+</body>
+</html>
+id
